@@ -8,22 +8,43 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Tamil Vendhan </span>
-            from <span className="purple"> TamilNadu, India.</span>
+            Hi, I’m <span className="purple">Tamil Vendhan</span>, a
+            <span className="purple"> Full Stack Developer</span> based in
+            <span className="purple"> Tamil Nadu, India</span>.
             <br />
-            I am currently seeking full time job as a React Developer.
+            <br />I have{" "}
+            <span className="purple">1 year of hands-on experience</span> in
+            building and maintaining real-world web applications using modern
+            JavaScript technologies.
             <br />
-            I have completed BCA at Bishop Heber College.
+            <br />I am currently working as a
+            <span className="purple"> Software Developer</span> at
+            <span className="purple">
+              {" "}
+              Holy Cross College (Autonomous), Trichy
+            </span>
+            , where I develop scalable academic and administrative systems.
+            <br />
+            <br />I hold a{" "}
+            <span className="purple">
+              Bachelor of Computer Applications (BCA)
+            </span>{" "}
+            from <span className="purple">Bishop Heber College, Trichy</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Outside of development, I enjoy activities that help me stay
+            creative and focused.
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring new technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Playing strategy & competitive games
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling and discovering new places
             </li>
           </ul>
         </blockquote>

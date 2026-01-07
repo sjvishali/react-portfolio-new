@@ -38,7 +38,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        {/* <h1 className="font-signature text-2xl cursor-pointer">T</h1> */}
+          {/* <h1 className="font-signature text-2xl cursor-pointer">T</h1> */}
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
@@ -105,9 +105,11 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
-              <a target="_blank"
-                href="https://drive.google.com/file/d/14nxgQWKRuHT-AjQlJamCilAsXJWOTx93/view"
-                className="fork-btn-inner nav-link" rel="noreferrer"
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1JlihXs3YeeXSQGeJ3jofWIR_ypYC-JRl/view?usp=drivesdk"
+                className="fork-btn-inner nav-link"
+                rel="noreferrer"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </a>
